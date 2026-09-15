@@ -1,0 +1,14 @@
+Guidestoop es un mapa de caminos para los quehaceres diarios. Párate en el campamento ocupado, planta una estaca al día, mantén la racha y luego arrastra al caminante a uno de los dos mojones revelados.
+
+• Planta el mojón de hoy una vez al día en el campamento ocupado. Una segunda estaca el mismo día se rechaza.
+• Mantén la racha. Ayer debe tener una estaca o la racha se pierde.
+• Tres días en este campamento abren la puerta. Aparecen dos campamentos adelante. Otra estaca no elige.
+• Arrastra al caminante a un mojón o toca Tomar este camino. El camino hermano se sella en este mapa.
+• Desde Gate Stoop los caminos son Moor Knoll y Peat Ford. Los campamentos posteriores son Granite Stack, Lichen Rise, Mist Hollow y Iron Gall.
+• La bitácora guarda los caminos elegidos y sellados.
+• Héroe muestra el nivel, el XP y los días aquí. El nivel es uno más el XP total entre cien.
+• Tras cinco estacas en una semana, aparece Cresta. Reclamar la cresta otorga 50 XP extra.
+• Ajustes incluye Contacto, Volver a ver la introducción y Borrar todos los datos.
+• El mapa se queda en este dispositivo.
+
+No hay cuenta ni compras dentro de la app.

@@ -1,0 +1,14 @@
+Guidestoop is a waymap for daily chores. Stand on the occupied camp, plant one stake a day, hold the streak, then drag the walker onto one of two revealed cairns.
+
+• Stake today's cairn once a day on the occupied camp. A second stake the same day is refused.
+• Hold the streak. Yesterday must hold a stake or the streak drops.
+• Three days on this camp opens the gate. Two forward camps appear. A further stake does not pick.
+• Drag the walker onto one cairn, or tap Take this road. The sibling road seals for this map.
+• From Gate Stoop the roads are Moor Knoll and Peat Ford. Later camps are Granite Stack, Lichen Rise, Mist Hollow and Iron Gall.
+• Journal keeps chosen and sealed roads.
+• Hero shows level, XP and days here. Level is one plus total XP over one hundred.
+• After five stakes in a week, Ridge appears. Claim the ridge awards 50 bonus XP.
+• Settings holds Contact, Re-run onboarding and Reset all data.
+• The waymap stays on this device.
+
+There is no account and no in-app purchase.

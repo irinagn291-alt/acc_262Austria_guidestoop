@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F29148309E8CF685E03DE1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C8728F564B8B53EA4F6BCD /* OnboardingView.swift */; };
+		0481B1AC58659323C1E26EE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC297908DC77F84C04B95A0F /* ContentView.swift */; };
+		1B866097AC98ADD7730F6D5D /* WaymapAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F25DF4F45CDB3626309A2 /* WaymapAtlas.swift */; };
+		2A8B73CB975729535D1F4B1E /* CairnCourier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0816F0B7A5A38DB8290C59E /* CairnCourier.swift */; };
+		2F67BCEF0F92E29CDE9CA3CF /* ScreenShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD4DD5A09380A244E67A813 /* ScreenShotTests.swift */; };
+		32C21E59C0F849C474D202CA /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BACB96D8C7C98F35A7EF45 /* APIConfig.swift */; };
+		35566E4C80EBB8D57693E37F /* CampStake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92A85EA6AC1BC005D6B4DF /* CampStake.swift */; };
+		36697E13535E66D5A2DA3786 /* CairnCourierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A895E817FACAA5468FBDAD /* CairnCourierTests.swift */; };
+		39A2A27040AA7C9E3690A174 /* WaymapSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CD92F692111E374F97DE31 /* WaymapSeed.swift */; };
+		3D021752AA695999987FC54F /* CampChore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CE41C7E70DD40B71FC089 /* CampChore.swift */; };
+		47678C361FDADEB035F9C5EC /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C287C3907D90C3BFD8FA95 /* FamilyInvariantTests.swift */; };
+		529D5D8F55246CEA552F1BC6 /* Walker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7378A27B591401D0D7A9D8 /* Walker.swift */; };
+		53BAEA57467E5FEDBF75B4E3 /* Camp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EF3A424A7D3FF6A589F69 /* Camp.swift */; };
+		572BFA4CBCC90EC52324AFDD /* WaymapBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E45217DDDE0BD351C29EE /* WaymapBoard.swift */; };
+		5E33AD311B193750188D9CEC /* WaymapLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E951E08464866A91D905A /* WaymapLedger.swift */; };
+		6A178A9C7CDCBD56639B1687 /* WaymapGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476FBE007C205E1B27F1450 /* WaymapGraph.swift */; };
+		6D0CCAE4DD672B7E58038ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA44D01F0755DF46EDA5C00 /* Assets.xcassets */; };
+		71B8B9087E5E04A5EDAE14C4 /* ForkReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41DCF7914FCF753F84D27FA /* ForkReveal.swift */; };
+		72F908010B18ABC987CE0F5C /* WaymapFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2121A7A1A91CF4743D09FBF /* WaymapFixture.swift */; };
+		7659FD76AA4BD1A9B001DBF3 /* WaymapScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F07B92321FB8A3E7E2F5 /* WaymapScreenTests.swift */; };
+		7866298200D4C8425169381E /* WaymapStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4636BED924442681C40F95A8 /* WaymapStoreTests.swift */; };
+		87B0EDAB26DFE2F0F8DD6282 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE959625849B33B205B88E9 /* HeroView.swift */; };
+		881168F3F8C7F44A1DA5BBA6 /* MoorVellum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6E0A5DE6A4D53275A1305 /* MoorVellum.swift */; };
+		8D73704BE07E1B4FE2502664 /* PartyMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D55E5D6E34A80366EB0B9 /* PartyMark.swift */; };
+		941D0A4F2EC7EEE77FF31620 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998707CEBE5873FDD4C8F943 /* JournalView.swift */; };
+		946C455704951D4FCC29C634 /* WaymapFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00A9EBF5EC76FA3DB1FA8E /* WaymapFigures.swift */; };
+		9D9F15DE4B1968D6BD48AA92 /* WaymapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D44D1AA7A62BD6E17AC5F91 /* WaymapView.swift */; };
+		9EC3AA1E58C690FE660D8661 /* Road.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4F04305AA3875615E804E /* Road.swift */; };
+		AD0D82904D11947BDB07C077 /* GuidestoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A128D4CDC8D957931E3F9 /* GuidestoopTests.swift */; };
+		B37397FBEB879FF35A5D4868 /* ScreenCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA645503295B4B88087891E /* ScreenCatalog.swift */; };
+		C27D01729DAA1FF8AB480455 /* RidgeBoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679255BDFA548238F6B79F91 /* RidgeBoss.swift */; };
+		CA31EE152C9717E7A6AF12CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0438C37A86A4557225E00 /* SettingsView.swift */; };
+		CAED347EE78E894E8204E111 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2984E32FDB0BF5F32368FE3F /* Alamofire */; };
+		CE786607EF761C9E7793F84F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C876D90C42A8FDD4BEBA700 /* AppDelegate.swift */; };
+		D31865C4B18C33D6BFFFCDBC /* WaymapFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98091A87B8983B42190CD449 /* WaymapFault.swift */; };
+		D54B91AFA7C0F61A84F38655 /* ForkSealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0008BDE857CE95C4DE879C /* ForkSealView.swift */; };
+		D626200390FDC85A8DEB744A /* RidgeFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C05F37CD59827BA8867064 /* RidgeFace.swift */; };
+		D6364C5485FF77CBD632DFE8 /* WaymapMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FACE5496C1892ABFC408D3 /* WaymapMemory.swift */; };
+		D992B553EE8ED1DBC7FE090E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF97099238810C2235DE1B /* MapView.swift */; };
+		E25BF4BAECB5BA2E5C218713 /* WaymapWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E139F8D690BE33B28760C /* WaymapWatch.swift */; };
+		E852CDCD9EE4DA08C8460131 /* GuidestoopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4AEF9F1483C1B491732931 /* GuidestoopApp.swift */; };
+		EE41FA67E494CFC3BD9D2CA7 /* WaymapWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EDBADC70B85C4710842B9 /* WaymapWatchTests.swift */; };
+		F063E2B3F5226AAE683E9661 /* WaymapStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C6323DC0476950B730C81 /* WaymapStore.swift */; };
+		F70B2632B9C4D8BACEA4426F /* ForkSeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520303320A56A5CB474EC627 /* ForkSeal.swift */; };
+		FC169D8D43CD1B28A2298B49 /* WaymapGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629C992A7C00C87470F163E /* WaymapGraphTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3745F28CC5EE759879D44727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82905CDD9EA9E5A328A4663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E699818368DAE67CA89CB1B;
+			remoteInfo = Guidestoop;
+		};
+		48352037D7A6E02781B9D540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82905CDD9EA9E5A328A4663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E699818368DAE67CA89CB1B;
+			remoteInfo = Guidestoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0476FBE007C205E1B27F1450 /* WaymapGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapGraph.swift; sourceTree = "<group>"; };
+		0BD4DD5A09380A244E67A813 /* ScreenShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotTests.swift; sourceTree = "<group>"; };
+		0EA44D01F0755DF46EDA5C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C05F37CD59827BA8867064 /* RidgeFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidgeFace.swift; sourceTree = "<group>"; };
+		176E139F8D690BE33B28760C /* WaymapWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapWatch.swift; sourceTree = "<group>"; };
+		1B7378A27B591401D0D7A9D8 /* Walker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walker.swift; sourceTree = "<group>"; };
+		1CA645503295B4B88087891E /* ScreenCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCatalog.swift; sourceTree = "<group>"; };
+		2B6E45217DDDE0BD351C29EE /* WaymapBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapBoard.swift; sourceTree = "<group>"; };
+		2C5D55E5D6E34A80366EB0B9 /* PartyMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyMark.swift; sourceTree = "<group>"; };
+		2C876D90C42A8FDD4BEBA700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		330EF3A424A7D3FF6A589F69 /* Camp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camp.swift; sourceTree = "<group>"; };
+		426C6323DC0476950B730C81 /* WaymapStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapStore.swift; sourceTree = "<group>"; };
+		443D438AC33C397183E020E4 /* GuidestoopShotTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GuidestoopShotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4629C992A7C00C87470F163E /* WaymapGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapGraphTests.swift; sourceTree = "<group>"; };
+		4636BED924442681C40F95A8 /* WaymapStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapStoreTests.swift; sourceTree = "<group>"; };
+		4BFF97099238810C2235DE1B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4CEFDCF559B848F7D7B6B403 /* Guidestoop.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Guidestoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520303320A56A5CB474EC627 /* ForkSeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForkSeal.swift; sourceTree = "<group>"; };
+		5E5EDBADC70B85C4710842B9 /* WaymapWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapWatchTests.swift; sourceTree = "<group>"; };
+		5ED6E0A5DE6A4D53275A1305 /* MoorVellum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoorVellum.swift; sourceTree = "<group>"; };
+		5FE959625849B33B205B88E9 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		679255BDFA548238F6B79F91 /* RidgeBoss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidgeBoss.swift; sourceTree = "<group>"; };
+		71CD92F692111E374F97DE31 /* WaymapSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapSeed.swift; sourceTree = "<group>"; };
+		76FACE5496C1892ABFC408D3 /* WaymapMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapMemory.swift; sourceTree = "<group>"; };
+		78C8728F564B8B53EA4F6BCD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7D44D1AA7A62BD6E17AC5F91 /* WaymapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapView.swift; sourceTree = "<group>"; };
+		84C287C3907D90C3BFD8FA95 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		8BC0F07B92321FB8A3E7E2F5 /* WaymapScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapScreenTests.swift; sourceTree = "<group>"; };
+		8DD4F04305AA3875615E804E /* Road.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road.swift; sourceTree = "<group>"; };
+		965E815B91BF2CB9DF9C2D99 /* GuidestoopTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GuidestoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98091A87B8983B42190CD449 /* WaymapFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapFault.swift; sourceTree = "<group>"; };
+		998707CEBE5873FDD4C8F943 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		99A895E817FACAA5468FBDAD /* CairnCourierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CairnCourierTests.swift; sourceTree = "<group>"; };
+		A0816F0B7A5A38DB8290C59E /* CairnCourier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CairnCourier.swift; sourceTree = "<group>"; };
+		B0B0438C37A86A4557225E00 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B41DCF7914FCF753F84D27FA /* ForkReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForkReveal.swift; sourceTree = "<group>"; };
+		BE92A85EA6AC1BC005D6B4DF /* CampStake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampStake.swift; sourceTree = "<group>"; };
+		C2BACB96D8C7C98F35A7EF45 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		DA6CE41C7E70DD40B71FC089 /* CampChore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampChore.swift; sourceTree = "<group>"; };
+		DD0008BDE857CE95C4DE879C /* ForkSealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForkSealView.swift; sourceTree = "<group>"; };
+		DE00A9EBF5EC76FA3DB1FA8E /* WaymapFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapFigures.swift; sourceTree = "<group>"; };
+		DF4AEF9F1483C1B491732931 /* GuidestoopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidestoopApp.swift; sourceTree = "<group>"; };
+		E2121A7A1A91CF4743D09FBF /* WaymapFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapFixture.swift; sourceTree = "<group>"; };
+		E70A128D4CDC8D957931E3F9 /* GuidestoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidestoopTests.swift; sourceTree = "<group>"; };
+		EC297908DC77F84C04B95A0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA5E951E08464866A91D905A /* WaymapLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapLedger.swift; sourceTree = "<group>"; };
+		FB2F25DF4F45CDB3626309A2 /* WaymapAtlas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaymapAtlas.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0633615FCB4F44176599EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAED347EE78E894E8204E111 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03240FE5AA19876B1D8014B8 /* Camp */ = {
+			isa = PBXGroup;
+			children = (
+				330EF3A424A7D3FF6A589F69 /* Camp.swift */,
+				DA6CE41C7E70DD40B71FC089 /* CampChore.swift */,
+				BE92A85EA6AC1BC005D6B4DF /* CampStake.swift */,
+				78C8728F564B8B53EA4F6BCD /* OnboardingView.swift */,
+			);
+			path = Camp;
+			sourceTree = "<group>";
+		};
+		0D021090080230EB5E332A12 /* Road */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF97099238810C2235DE1B /* MapView.swift */,
+				5ED6E0A5DE6A4D53275A1305 /* MoorVellum.swift */,
+				8DD4F04305AA3875615E804E /* Road.swift */,
+				FB2F25DF4F45CDB3626309A2 /* WaymapAtlas.swift */,
+				2B6E45217DDDE0BD351C29EE /* WaymapBoard.swift */,
+				98091A87B8983B42190CD449 /* WaymapFault.swift */,
+				E2121A7A1A91CF4743D09FBF /* WaymapFixture.swift */,
+				0476FBE007C205E1B27F1450 /* WaymapGraph.swift */,
+				7D44D1AA7A62BD6E17AC5F91 /* WaymapView.swift */,
+				176E139F8D690BE33B28760C /* WaymapWatch.swift */,
+			);
+			path = Road;
+			sourceTree = "<group>";
+		};
+		189FE7E11077BA9739ACF51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFDCF559B848F7D7B6B403 /* Guidestoop.app */,
+				443D438AC33C397183E020E4 /* GuidestoopShotTests.xctest */,
+				965E815B91BF2CB9DF9C2D99 /* GuidestoopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC056FEBB02A66B88CB1612 /* Seal */ = {
+			isa = PBXGroup;
+			children = (
+				520303320A56A5CB474EC627 /* ForkSeal.swift */,
+				998707CEBE5873FDD4C8F943 /* JournalView.swift */,
+				B0B0438C37A86A4557225E00 /* SettingsView.swift */,
+				FA5E951E08464866A91D905A /* WaymapLedger.swift */,
+				76FACE5496C1892ABFC408D3 /* WaymapMemory.swift */,
+				71CD92F692111E374F97DE31 /* WaymapSeed.swift */,
+				426C6323DC0476950B730C81 /* WaymapStore.swift */,
+			);
+			path = Seal;
+			sourceTree = "<group>";
+		};
+		69E4A63E6F6C1CA8AE710FD2 /* Guidestoop */ = {
+			isa = PBXGroup;
+			children = (
+				C2BACB96D8C7C98F35A7EF45 /* APIConfig.swift */,
+				2C876D90C42A8FDD4BEBA700 /* AppDelegate.swift */,
+				0EA44D01F0755DF46EDA5C00 /* Assets.xcassets */,
+				EC297908DC77F84C04B95A0F /* ContentView.swift */,
+				DF4AEF9F1483C1B491732931 /* GuidestoopApp.swift */,
+				900F9F2BA2FA1756178521E9 /* Boss */,
+				03240FE5AA19876B1D8014B8 /* Camp */,
+				C0B30EC11475B1C93BC1BDFF /* Fork */,
+				96B85BEF6DB0C5C80D37F2A4 /* Party */,
+				0D021090080230EB5E332A12 /* Road */,
+				1DC056FEBB02A66B88CB1612 /* Seal */,
+			);
+			path = Guidestoop;
+			sourceTree = "<group>";
+		};
+		752693F85CE48B076F8635A9 = {
+			isa = PBXGroup;
+			children = (
+				69E4A63E6F6C1CA8AE710FD2 /* Guidestoop */,
+				B27C2B59E24D504BBACB59AF /* GuidestoopShotTests */,
+				B023F09264A394F59FD6E514 /* GuidestoopTests */,
+				189FE7E11077BA9739ACF51E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900F9F2BA2FA1756178521E9 /* Boss */ = {
+			isa = PBXGroup;
+			children = (
+				A0816F0B7A5A38DB8290C59E /* CairnCourier.swift */,
+				679255BDFA548238F6B79F91 /* RidgeBoss.swift */,
+				12C05F37CD59827BA8867064 /* RidgeFace.swift */,
+			);
+			path = Boss;
+			sourceTree = "<group>";
+		};
+		96B85BEF6DB0C5C80D37F2A4 /* Party */ = {
+			isa = PBXGroup;
+			children = (
+				5FE959625849B33B205B88E9 /* HeroView.swift */,
+				2C5D55E5D6E34A80366EB0B9 /* PartyMark.swift */,
+				1B7378A27B591401D0D7A9D8 /* Walker.swift */,
+				DE00A9EBF5EC76FA3DB1FA8E /* WaymapFigures.swift */,
+			);
+			path = Party;
+			sourceTree = "<group>";
+		};
+		B023F09264A394F59FD6E514 /* GuidestoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				99A895E817FACAA5468FBDAD /* CairnCourierTests.swift */,
+				84C287C3907D90C3BFD8FA95 /* FamilyInvariantTests.swift */,
+				E70A128D4CDC8D957931E3F9 /* GuidestoopTests.swift */,
+				4629C992A7C00C87470F163E /* WaymapGraphTests.swift */,
+				8BC0F07B92321FB8A3E7E2F5 /* WaymapScreenTests.swift */,
+				4636BED924442681C40F95A8 /* WaymapStoreTests.swift */,
+				5E5EDBADC70B85C4710842B9 /* WaymapWatchTests.swift */,
+			);
+			path = GuidestoopTests;
+			sourceTree = "<group>";
+		};
+		B27C2B59E24D504BBACB59AF /* GuidestoopShotTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA645503295B4B88087891E /* ScreenCatalog.swift */,
+				0BD4DD5A09380A244E67A813 /* ScreenShotTests.swift */,
+			);
+			path = GuidestoopShotTests;
+			sourceTree = "<group>";
+		};
+		C0B30EC11475B1C93BC1BDFF /* Fork */ = {
+			isa = PBXGroup;
+			children = (
+				B41DCF7914FCF753F84D27FA /* ForkReveal.swift */,
+				DD0008BDE857CE95C4DE879C /* ForkSealView.swift */,
+			);
+			path = Fork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F36BDA412C0BB0E0DFEB5D /* GuidestoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396FE192250EB14EEEA0D0D2 /* Build configuration list for PBXNativeTarget "GuidestoopTests" */;
+			buildPhases = (
+				5A37460E05EF61C2D66A3046 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE3278F443329863532DA35 /* PBXTargetDependency */,
+			);
+			name = GuidestoopTests;
+			packageProductDependencies = (
+			);
+			productName = GuidestoopTests;
+			productReference = 965E815B91BF2CB9DF9C2D99 /* GuidestoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E699818368DAE67CA89CB1B /* Guidestoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C18F863BF65ADF49F35C5D /* Build configuration list for PBXNativeTarget "Guidestoop" */;
+			buildPhases = (
+				20251F60C3901BA4281CAEBA /* Sources */,
+				FD752F39D45DEFFB3DB73171 /* Resources */,
+				9F0633615FCB4F44176599EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guidestoop;
+			packageProductDependencies = (
+				2984E32FDB0BF5F32368FE3F /* Alamofire */,
+			);
+			productName = Guidestoop;
+			productReference = 4CEFDCF559B848F7D7B6B403 /* Guidestoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4746F6415122B56CC2E19C81 /* GuidestoopShotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAB9E4615223B53ABAA54BD /* Build configuration list for PBXNativeTarget "GuidestoopShotTests" */;
+			buildPhases = (
+				E82E463F4BFCC88F0B5CDD1B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9B7F112B70306CB743CE06 /* PBXTargetDependency */,
+			);
+			name = GuidestoopShotTests;
+			packageProductDependencies = (
+			);
+			productName = GuidestoopShotTests;
+			productReference = 443D438AC33C397183E020E4 /* GuidestoopShotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B82905CDD9EA9E5A328A4663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26F36BDA412C0BB0E0DFEB5D = {
+						ProvisioningStyle = Automatic;
+					};
+					3E699818368DAE67CA89CB1B = {
+						ProvisioningStyle = Automatic;
+					};
+					4746F6415122B56CC2E19C81 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4FAEF5099B676B469C63CC48 /* Build configuration list for PBXProject "Guidestoop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 752693F85CE48B076F8635A9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5B9871E9F42C31D0B8962F3C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 189FE7E11077BA9739ACF51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E699818368DAE67CA89CB1B /* Guidestoop */,
+				26F36BDA412C0BB0E0DFEB5D /* GuidestoopTests */,
+				4746F6415122B56CC2E19C81 /* GuidestoopShotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD752F39D45DEFFB3DB73171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0CCAE4DD672B7E58038ADA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20251F60C3901BA4281CAEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C21E59C0F849C474D202CA /* APIConfig.swift in Sources */,
+				CE786607EF761C9E7793F84F /* AppDelegate.swift in Sources */,
+				2A8B73CB975729535D1F4B1E /* CairnCourier.swift in Sources */,
+				53BAEA57467E5FEDBF75B4E3 /* Camp.swift in Sources */,
+				3D021752AA695999987FC54F /* CampChore.swift in Sources */,
+				35566E4C80EBB8D57693E37F /* CampStake.swift in Sources */,
+				0481B1AC58659323C1E26EE7 /* ContentView.swift in Sources */,
+				71B8B9087E5E04A5EDAE14C4 /* ForkReveal.swift in Sources */,
+				F70B2632B9C4D8BACEA4426F /* ForkSeal.swift in Sources */,
+				D54B91AFA7C0F61A84F38655 /* ForkSealView.swift in Sources */,
+				E852CDCD9EE4DA08C8460131 /* GuidestoopApp.swift in Sources */,
+				87B0EDAB26DFE2F0F8DD6282 /* HeroView.swift in Sources */,
+				941D0A4F2EC7EEE77FF31620 /* JournalView.swift in Sources */,
+				D992B553EE8ED1DBC7FE090E /* MapView.swift in Sources */,
+				881168F3F8C7F44A1DA5BBA6 /* MoorVellum.swift in Sources */,
+				00F29148309E8CF685E03DE1 /* OnboardingView.swift in Sources */,
+				8D73704BE07E1B4FE2502664 /* PartyMark.swift in Sources */,
+				C27D01729DAA1FF8AB480455 /* RidgeBoss.swift in Sources */,
+				D626200390FDC85A8DEB744A /* RidgeFace.swift in Sources */,
+				9EC3AA1E58C690FE660D8661 /* Road.swift in Sources */,
+				CA31EE152C9717E7A6AF12CA /* SettingsView.swift in Sources */,
+				529D5D8F55246CEA552F1BC6 /* Walker.swift in Sources */,
+				1B866097AC98ADD7730F6D5D /* WaymapAtlas.swift in Sources */,
+				572BFA4CBCC90EC52324AFDD /* WaymapBoard.swift in Sources */,
+				D31865C4B18C33D6BFFFCDBC /* WaymapFault.swift in Sources */,
+				946C455704951D4FCC29C634 /* WaymapFigures.swift in Sources */,
+				72F908010B18ABC987CE0F5C /* WaymapFixture.swift in Sources */,
+				6A178A9C7CDCBD56639B1687 /* WaymapGraph.swift in Sources */,
+				5E33AD311B193750188D9CEC /* WaymapLedger.swift in Sources */,
+				D6364C5485FF77CBD632DFE8 /* WaymapMemory.swift in Sources */,
+				39A2A27040AA7C9E3690A174 /* WaymapSeed.swift in Sources */,
+				F063E2B3F5226AAE683E9661 /* WaymapStore.swift in Sources */,
+				9D9F15DE4B1968D6BD48AA92 /* WaymapView.swift in Sources */,
+				E25BF4BAECB5BA2E5C218713 /* WaymapWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A37460E05EF61C2D66A3046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36697E13535E66D5A2DA3786 /* CairnCourierTests.swift in Sources */,
+				47678C361FDADEB035F9C5EC /* FamilyInvariantTests.swift in Sources */,
+				AD0D82904D11947BDB07C077 /* GuidestoopTests.swift in Sources */,
+				FC169D8D43CD1B28A2298B49 /* WaymapGraphTests.swift in Sources */,
+				7659FD76AA4BD1A9B001DBF3 /* WaymapScreenTests.swift in Sources */,
+				7866298200D4C8425169381E /* WaymapStoreTests.swift in Sources */,
+				EE41FA67E494CFC3BD9D2CA7 /* WaymapWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82E463F4BFCC88F0B5CDD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37397FBEB879FF35A5D4868 /* ScreenCatalog.swift in Sources */,
+				2F67BCEF0F92E29CDE9CA3CF /* ScreenShotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE3278F443329863532DA35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E699818368DAE67CA89CB1B /* Guidestoop */;
+			targetProxy = 48352037D7A6E02781B9D540 /* PBXContainerItemProxy */;
+		};
+		8E9B7F112B70306CB743CE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E699818368DAE67CA89CB1B /* Guidestoop */;
+			targetProxy = 3745F28CC5EE759879D44727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		328F591CD9C8166FF60518E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidestoop.cairn.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guidestoop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guidestoop";
+			};
+			name = Release;
+		};
+		70A0339DCA4894E5F08DBC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Guidestoop;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = gds_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidestoop.cairn;
+				PRODUCT_NAME = Guidestoop;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84010B8498C3FEA98EC905F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidestoop.cairn.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guidestoop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guidestoop";
+			};
+			name = Debug;
+		};
+		94A3A89285311AC3BEAE5AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		A0D9A89CF3D44920549FBE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		BBD15A009C7F5CA329D103E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidestoop.cairn.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guidestoop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guidestoop";
+			};
+			name = Release;
+		};
+		D267137BD2C3EF601221D55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Guidestoop;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = gds_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidestoop.cairn;
+				PRODUCT_NAME = Guidestoop;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAC086EEA6033FAD499ED546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidestoop.cairn.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guidestoop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guidestoop";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C18F863BF65ADF49F35C5D /* Build configuration list for PBXNativeTarget "Guidestoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A0339DCA4894E5F08DBC52 /* Debug */,
+				D267137BD2C3EF601221D55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		396FE192250EB14EEEA0D0D2 /* Build configuration list for PBXNativeTarget "GuidestoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84010B8498C3FEA98EC905F6 /* Debug */,
+				BBD15A009C7F5CA329D103E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4FAEF5099B676B469C63CC48 /* Build configuration list for PBXProject "Guidestoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A3A89285311AC3BEAE5AD7 /* Debug */,
+				A0D9A89CF3D44920549FBE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5AAB9E4615223B53ABAA54BD /* Build configuration list for PBXNativeTarget "GuidestoopShotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC086EEA6033FAD499ED546 /* Debug */,
+				328F591CD9C8166FF60518E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B9871E9F42C31D0B8962F3C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2984E32FDB0BF5F32368FE3F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B9871E9F42C31D0B8962F3C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B82905CDD9EA9E5A328A4663 /* Project object */;
+}

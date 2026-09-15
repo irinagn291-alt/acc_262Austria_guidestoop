@@ -1,0 +1,1 @@
+Esta es la primera versión. Planta el mojón de hoy una vez al día, mantén la racha hasta que se abran dos caminos, arrastra al caminante a un mojón y lee el rastro en la bitácora. Héroe muestra el nivel y el XP. Cinco estacas en una semana abren Cresta para reclamar la cresta por 50 XP extra. Ajustes incluye Contacto, Volver a ver la introducción y Borrar todos los datos.
