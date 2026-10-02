@@ -1,1 +1,3 @@
-This is the first release. Stake today's cairn once a day, hold the streak until two roads open, drag the walker onto one cairn, and read the trail in Journal. Hero shows level and XP. Five stakes in a week open Ridge so you can Claim the ridge for 50 bonus XP. Settings includes Contact, Re-run onboarding and Reset all data.
+Version 1.4 keeps Guidestoop polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app
