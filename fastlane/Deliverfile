@@ -29,7 +29,7 @@ screenshots_path("./fastlane/screenshots")
 overwrite_screenshots true
 screenshot_processing_timeout 600
 skip_app_version_update false
-app_version "1.4"
+app_version "1.5"
 
 submit_for_review false
 automatic_release true
