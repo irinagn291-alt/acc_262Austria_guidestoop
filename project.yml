@@ -1,8 +1,8 @@
 name: Guidestoop
 packages:
   Alamofire:
-    url: https://github.com/wrandecima-bit/Alamofire
-    revision: 7fdd403089757be2ce6991b287c7bef612c8bd04
+    url: https://github.com/srfcsthpvf-prog/Alamofire
+    revision: 3ea8e93ec37a3ae5f255afb529ef20f438dd1903
 options:
   bundleIdPrefix: com.guidestoop
   deploymentTarget:
